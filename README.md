@@ -13,11 +13,20 @@
 
 ```
 Import JAVA Module Files
+
 Take input from keyboard i.e., Machines and Jobs
+
 Take input m number of Jobs for n number of machines
+
 Make n number of machines into 2 machines
+    
+    ->for i=0 to 
+    
     ->for machine A add 1 to n-1 machines
+    
+               arr[0][i]
+    
     ->for machine B add 2 to n machines
 
-
+Now for
 ```
