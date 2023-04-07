@@ -51,6 +51,7 @@ if the minimum element found in machine A add at starting of Array else at Endin
 Create a Dummy 2 machine Array supl
 
 z := 0, w := machine-1
+
 sequenc[] an array declration
 
 forEach(x : sortedArray):
@@ -77,3 +78,6 @@ forEach(x : sortedArray):
 ```
 
 This Method help us to solve the problems related to Sequencing Problem. And makes problem simple and useful for Productive machine allocation. 
+>Time Complexity O(n^2)
+
+>Space Complexity O(n^2)
