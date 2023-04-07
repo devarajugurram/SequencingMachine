@@ -65,7 +65,8 @@ forEach(x : sortedArray):
         
             break
     
-    else x == dupl[1][i]
+    else if x == dupl[1][i]
+    
             sequence[w--] = i+1
             
             dup[0][i] = dup[1][i] = Integer.MAX_VALUE
