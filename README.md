@@ -75,3 +75,5 @@ forEach(x : sortedArray):
           
  print sequence
 ```
+
+This Method help us to solve the problems related to Sequencing Problem. And makes problem simple and useful for Productive machine allocation. 
