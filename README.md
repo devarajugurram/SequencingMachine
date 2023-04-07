@@ -16,17 +16,61 @@ Import JAVA Module Files
 
 Take input from keyboard i.e., Machines and Jobs
 
+Initalize Two Dimensional Array arr[machine][Jobs]
+
 Take input m number of Jobs for n number of machines
 
-Make n number of machines into 2 machines
+Make n > 2 number of machines into 2 machines
     
-    ->for i=0 to 
+    ->for i:=0 to Jobs:
     
-    ->for machine A add 1 to n-1 machines
+          ->for j := 1 to Jobs-1:
     
-               arr[0][i]
-    
-    ->for machine B add 2 to n machines
+                  arr[0][i] :+= arr[j][i];
+              
+          ->for j:=2 to Jobs:
+          
+                  arr[1][i] :+= arr[j][i]; 
 
-Now for
+if n < 2 throw an Exception()
+
+From two machine convert into single Dimensional Array with minimum values corresponding to its columns 
+
+for i := 0 to Jobs:
+
+     if(min == arr[1][j]) assign value[0][i]
+     
+     else assign value[1][i]
+     
+Sort the Array 
+
+Search the Elements of value array in arr and make a copy of positions
+
+if the minimum element found in machine A add at starting of Array else at Ending of Array
+
+Create a Dummy 2 machine Array supl
+
+z := 0, w := machine-1
+sequenc[] an array declration
+
+forEach(x : sortedArray):
+    
+    for i:=0 to machine:
+    
+        if x == dup[0][i]
+        
+            sequence[z++] = i+1
+        
+            dup[0][i] = dup[1][i] = Integer.MAX_VALUE
+        
+            break
+    
+    else x == dupl[1][i]
+            sequence[w--] = i+1
+            
+            dup[0][i] = dup[1][i] = Integer.MAX_VALUE
+            
+            break
+          
+ print sequence
 ```
