@@ -1,4 +1,6 @@
 ### SEQUENCING PROBLEM
+This problem Statement taken from the operating research TextBook
+
 *"Sequencing Problem"* play a crucial role in many areas of operating research.Here is one of the specific way in which sequencing Problem are used in operating research.
 
 > Applications Of Sequencing Problem
